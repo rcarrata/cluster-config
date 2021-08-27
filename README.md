@@ -21,5 +21,5 @@ until oc apply -k bootstrap/; do sleep 2; done
 oc apply -k cluster-config/config/overlays/default/
 ```
 
-<img align="center" width="550" src="assets/pic1.png">
+<img align="center" width="750" src="assets/pic1.png">
 
