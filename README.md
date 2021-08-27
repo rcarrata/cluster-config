@@ -16,3 +16,10 @@ until oc apply -k bootstrap/; do sleep 2; done
 ```
 
 ## Deploy the Cluster Config in ArgoCD
+
+```
+oc apply -k cluster-config/config/overlays/default/
+```
+
+<img align="center" width="750" src="docs/pics/pic1.png">
+
