@@ -9,7 +9,7 @@ spec:
       repoURL: https://github.com/rcarrata/cluster-config
       revision: main
       directories:
-      - path: manifests
+      - path: manifests/*
   template:
     metadata:
       name: '{{path.basename}}'
