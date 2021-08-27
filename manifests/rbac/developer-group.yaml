@@ -3,4 +3,4 @@ kind: Group
 metadata:
   name: developer
 users:
-  - ocp-developer
+  - developer
