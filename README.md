@@ -17,6 +17,14 @@ until oc apply -k bootstrap/; do sleep 2; done
 
 ## Deploy the Cluster Config in ArgoCD
 
+Deploy basic Cluster Configuration:
+
+- Htpasswd Auth
+- RBAC Openshift
+- Openshift Pipelines
+- Sealed Secrets
+- Container Security Operator
+
 ```
 oc apply -k cluster-config/config/overlays/default/
 ```
@@ -25,6 +33,11 @@ oc apply -k cluster-config/config/overlays/default/
 
 
 ## Deploy the Cluster Extra Config in ArgoCD
+
+Deploy extra Cluster Configuration:
+
+- Compliance Operator
+- Service Mesh Operators
 
 ```
 oc apply -k cluster-config/config/overlays/extra
