@@ -23,3 +23,11 @@ oc apply -k cluster-config/config/overlays/default/
 
 <img align="center" width="750" src="assets/pic1.png">
 
+
+## Deploy the Cluster Extra Config in ArgoCD
+
+```
+oc apply -k cluster-config/config/overlays/extra
+```
+
+<img align="center" width="750" src="assets/pic2.png">
