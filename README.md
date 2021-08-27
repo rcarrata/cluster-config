@@ -15,7 +15,7 @@ cd cluster-config
 until oc apply -k bootstrap/; do sleep 2; done
 ```
 
-## Deploy the Cluster Config in ArgoCD
+## Deploy the Cluster Config in ArgoCD (using ApplicationSets)
 
 Deploy basic Cluster Configuration:
 
@@ -32,7 +32,7 @@ oc apply -k cluster-config/config/overlays/default/
 <img align="center" width="750" src="assets/pic1.png">
 
 
-## Deploy the Cluster Extra Config in ArgoCD
+## Deploy the Cluster Extra Config in ArgoCD (using ApplicationSets)
 
 Deploy extra Cluster Configuration:
 
